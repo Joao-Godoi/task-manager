@@ -1,30 +1,17 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import "./App.css";
 import AddTasks from "./components/AddTasks/AddTask";
 import Tasks from "./components/ListTasks/Tasks";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
-  const [tasks, setTasks] = useState([
-    {
-      id: uuidv4(),
-      title: "Estudar React",
-      description: "Aprender React",
-      isCompleted: false,
-    },
-    {
-      id: uuidv4(),
-      title: "Estudar Tailwind",
-      description: "Aprender Tailwind",
-      isCompleted: true,
-    },
-    {
-      id: uuidv4(),
-      title: "Estudar Axios",
-      description: "Aprender Axios",
-      isCompleted: false,
-    },
-  ]);
+  const [tasks, setTasks] = useState(
+    JSON.parse(localStorage.getItem("tasks")) || []
+  );
+
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }, [tasks]);
 
   const toggleTaskCompletion = useCallback((taskId) => {
     setTasks((prevTasks) =>
