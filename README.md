@@ -1,10 +1,10 @@
 # Task manager
 
-[![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/-Vite-643CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Lucide](https://img.shields.io/badge/-Lucide-4A4A4A?style=flat-square&logo=lucide&logoColor=white)](https://lucide.dev/)
-[![Node.js](https://img.shields.io/badge/-Node.js-8CC84B?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
+![React](https://img.shields.io/badge/React-61DAFB?&style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-643CFF?&style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?&style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide-4A4A4A?&style=for-the-badge&logo=lucide&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-8CC84B?&style=for-the-badge&logo=node.js&logoColor=white)
 
 Um aplicativo de gerenciamento de tarefas simples, construído com React, Vite, Tailwind CSS, Lucide e Node.js. O objetivo deste projeto é fornecer uma interface intuitiva para adicionar, visualizar, marcar como concluídas e excluir tarefas.
 
@@ -38,5 +38,25 @@ Siga os passos abaixo para instalar e executar o projeto localmente:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
+   git clone https://github.com/Joao-Godoi/task-manager.git
    ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd task-manager
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abra o navegador e acesse http://localhost:5173.
