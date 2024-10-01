@@ -5,6 +5,15 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?&style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Lucide](https://img.shields.io/badge/Lucide-4A4A4A?&style=for-the-badge&logo=lucide&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-8CC84B?&style=for-the-badge&logo=node.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+## Aplicação disponível
+
+Confira a aplicação hospedada na Vercel:
+
+[Task Manager](https://task-manager-omega-ecru.vercel.app/)
+
+## Descrição
 
 Um aplicativo de gerenciamento de tarefas simples, construído com React, Vite, Tailwind CSS, Lucide e Node.js. O objetivo deste projeto é fornecer uma interface intuitiva para adicionar, visualizar, marcar como concluídas e excluir tarefas.
 
@@ -18,7 +27,7 @@ Um aplicativo de gerenciamento de tarefas simples, construído com React, Vite, 
 
 ## Funcionalidades
 
-- Adicionar novas tarefas (TODO).
+- Adicionar novas tarefas.
 - Ver detalhes das tarefas.
 - Marcar tarefas como concluídas.
 - Excluir tarefas.
